@@ -1,0 +1,555 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Abort -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Abort">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+        <rdfs:comment>To terminate a preplanned aircraft maneuver; e.g., an aborted takeoff.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Acknowledge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Acknowledge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+        <rdfs:comment>Let me know that you have received and understood this message.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Actual_Calculated_Landing_Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Actual_Calculated_Landing_Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Time"/>
+        <rdfs:comment>ACLT is a flight’s frozen calculated landing time. This time will not be updated in response to the aircraft’s progress.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Affirmative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Affirmative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+        <rdfs:comment>Yes.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Air_Traffic_Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Air_Traffic_Control">
+        <rdfs:comment>A service operated by appropriate authority to promote the safe, orderly and expeditious flow of air traffic.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Aircraft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Aircraft">
+        <rdfs:comment>Any machine that can derive support in the atmosphere from the reactions of the air other than the reactions of the air against the earth’s surface.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Aircraft_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Aircraft_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Physical_Properties"/>
+        <rdfs:comment>The ICAO aircraft type designator, which is a three- or four-character alphanumeric code designating every aircraft type that may appear in flight planning.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport">
+        <rdfs:comment>An area on land or water that is used or intended to be used for the landing and takeoff of aircraft and includes its buildings and facilities, if any.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airspeed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airspeed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Flight_Properties"/>
+        <rdfs:comment>The speed of an aircraft relative to its surrounding air mass. The unqualified term “airspeed” means one of the following: 
+a. Indicated Airspeed− The speed shown on the aircraft airspeed indicator. This is the speed used in pilot/controller communications under the general term “airspeed.”
+b. True Airspeed− The airspeed of an aircraft relative to undisturbed air. Used primarily in flight planning and en route portion of flight. When used in pilot/controller communications, it is referred to as “true airspeed” and not shortened to “airspeed.”</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Alert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Alert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+        <rdfs:comment>A notification to a position that there is an aircraft-to-aircraft or aircraft-to-airspace conflict, as detected by Automated Problem Detection (APD).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Altitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Altitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Location"/>
+        <rdfs:comment>The vertical distance of a level, a point or an object considered as a point, measured from mean sea level (MSL).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Approach_Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Approach_Category">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Flight_Properties"/>
+        <rdfs:comment>A grouping of aircraft based on a speed of 1.3 times the stall speed in the landing configuration at maximum gross landing weight. An aircraft must fit in only one category. The categories are as follows: 
+a. Category A− Speed less than 91 knots.
+b. Category B− Speed 91 knots or more but less than 121 knots.
+c. Category C− Speed 121 knots or more but less than 141 knots.
+d. Category D− Speed 141 knots or more but less than 166 knots.
+e. Category E− Speed 166 knots or more.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Arrival_Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Arrival_Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Time"/>
+        <rdfs:comment>The time an aircraft touches down on arrival.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Call_Sign -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Call_Sign">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Physical_Properties"/>
+        <rdfs:comment>Call signs in aviation generally depend upon the type of flight operation. In most cases, the call sign corresponds to the aircraft&apos;s registration or tail number.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Cleared -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Cleared">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+        <rdfs:comment>ATC authorization for an aircraft to execute any specific action. Needs to be followed by the action name, such as “Cleared Approach”, “Cleared for Takeoff”, “Cleared to Land”, etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Controller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Controller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Air_Traffic_Control"/>
+        <rdfs:comment>A person authorized to provide air traffic control services.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Controls -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Controls">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Flight_Properties"/>
+        <rdfs:comment>The properties that define the behavior of the flight.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Crosswind_Component -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Crosswind_Component">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+        <rdfs:comment>The wind component measured in knots at 90 degrees to the longitudinal axis of the runway.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Departure_Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Departure_Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Time"/>
+        <rdfs:comment>The time an aircraft becomes airborne.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Dew_Point -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Dew_Point">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+        <rdfs:comment>The temperature at which dew forms. It is a measure of atmospheric moisture.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Elevation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Elevation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport"/>
+        <rdfs:comment>The highest point of an airport’s usable runways measured in feet from mean sea level.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Error -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Error">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+        <rdfs:comment>System-generated notification of an error.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Flight_Properties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Flight_Properties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Aircraft"/>
+        <rdfs:comment>The properties of an aircraft while it is airborne. This collection mainly lists variable properties that change during the course of the flight.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Flight_Rules -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Flight_Rules">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Flight_Properties"/>
+        <rdfs:comment>The set of rules that govern the flight: VFR or IFR. VFR stands for Visual Flight Rules and IFR means Instrument Flight Rules.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Fuel_Remaining -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Fuel_Remaining">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Flight_Properties"/>
+        <rdfs:comment>A phrase used by either pilots or controllers when relating to the fuel remaining on board until actual fuel exhaustion.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Gate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Gate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Terminal"/>
+        <rdfs:comment>A gate that allows passengers to go from the terminal to the airplane. Also referred to as the parking space for the aircraft.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Ground_Speed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Ground_Speed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Flight_Properties"/>
+        <rdfs:comment>The speed of an aircraft relative to the surface of the earth.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Heading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Heading">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway"/>
+        <rdfs:comment>The magnetic direction that corresponds with the runway centerline extended, not the painted runway number.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Hold_Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Hold_Position">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+        <rdfs:comment>Instruction to hold the current position.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Identifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Identifier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport"/>
+        <rdfs:comment>The three-character airport code assigned by the International Air Transport Association.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Immediately -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Immediately">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+        <rdfs:comment>Instruction to immediately comply with the associated instruction to avoid an imminent situation.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Air_Traffic_Control"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Latitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Latitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Location"/>
+        <rdfs:comment>The angular distance of the aircraft north or south of the earth&apos;s equator, usually expressed in degrees and minutes.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Length -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Length">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway"/>
+        <rdfs:comment>The length of runway which is declared available and suitable for the ground run of an aeroplane takeoff or landing.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Flight_Properties"/>
+        <rdfs:comment>The place or position of the aircraft at a given time.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Longitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Longitude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Location"/>
+        <rdfs:comment>The angular distance of the aircraft east or west of the meridian at Greenwich, England, usually expressed in degrees and minutes.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Mayday_Mayday_Mayday -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Mayday_Mayday_Mayday">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+        <rdfs:comment>Indication of an emergency situation.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Negative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Negative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+        <rdfs:comment>“No” or “Permission not granted” or “That is not correct.”</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Physical_Properties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Physical_Properties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Aircraft"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Pilot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Pilot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Aircraft"/>
+        <rdfs:comment>The person who operates the flying controls of the aircraft.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Pitch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Pitch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Controls"/>
+        <rdfs:comment>Current pitch angle of the aircraft relative to horizontal plane.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Pitch_Rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Pitch_Rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Controls"/>
+        <rdfs:comment>Current rate of change of pitch direction.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Roll -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Roll">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Controls"/>
+        <rdfs:comment>Current roll angle of the aircraft in decimal degrees.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Roll_Rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Roll_Rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Controls"/>
+        <rdfs:comment>Current rate of change of roll angle.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport"/>
+        <rdfs:comment>A defined rectangular area on a land aerodrome prepared for the landing and take-off of aircraft.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Sky_Condition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Sky_Condition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+        <rdfs:comment>A description of the appearance of the sky. Sky condition may be evaluated either automatically by instrument or manually with or without instruments.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Standby -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Standby">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Key_Terms_in_Communication"/>
+        <rdfs:comment>Indication that the message will be responded to shortly.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+        <rdfs:comment>The degree or intensity of heat present in a substance or object, as expressed according to a comparative scale and shown by a thermometer.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Terminal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Terminal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Airport"/>
+        <rdfs:comment>A building at an airport where passengers transfer between ground transportation and the facilities that allow them to board and disembark from aircraft.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Flight_Properties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Turn_Rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Turn_Rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Controls"/>
+        <rdfs:comment>Current rate of change of ground track.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Visibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Visibility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+        <rdfs:comment>The ability, as determined by atmospheric conditions and expressed in units of distance, to see and identify prominent unlighted objects by day and prominent lighted objects by night.
+a. Flight Visibility−The visibility forward from the cockpit of an aircraft in flight.
+b. Ground Visibility−The visibility at an aerodrome as reported by an accredited observer.
+c. Runway Visual Range [RVR]−The range over which the pilot of an aircraft on the centerline of a runway can see the runway surface markings or the lights delineating the runway or identifying its centerline.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Wake_Turbulence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Wake_Turbulence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+        <rdfs:comment>Phenomena resulting from the passage of an aircraft through the atmosphere. The term includes vortices, thrust stream turbulence, jet blast, jet wash, propeller wash, and rotor wash both on the ground and in the air.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather">
+        <rdfs:comment>The state of the atmosphere at a place and time as regards heat, dryness, sunshine, wind, rain, etc.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weight_Class -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weight_Class">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Physical_Properties"/>
+        <rdfs:comment>For the purposes of Wake Turbulence Separation Minima, ATC classifies aircraft as Heavy, Large, and Small as follows: 
+a. Heavy− Aircraft capable of takeoff weights of 300,000 pounds or more whether or not they are operating at this weight during a particular phase of flight.
+b. Large− Aircraft of more than 41,000 pounds, maximum certificated takeoff weight, up to but not including 300,000 pounds.
+c. Small− Aircraft of 41,000 pounds or less maximum certificated takeoff weight.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Wind_Shear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Wind_Shear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Weather"/>
+        <rdfs:comment>A change in wind speed and/or wind direction in a short distance resulting in a tearing or shearing effect. It can exist in a horizontal or vertical direction and occasionally in both.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#7L -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#7L">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chhayab/ontologies/2016/3/untitled-ontology-7#Runway"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+
